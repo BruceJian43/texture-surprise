@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*://miro.medium.com/fit/c/20"
+    }
+  },
+  {
+    "id": 2,
+    "priority": 2,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*://miro.medium.com/fit/c/24"
+    }
+  },
+  {
+    "id": 3,
+    "priority": 3,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*://miro.medium.com/fit/c/32"
+    }
+  },
+  {
+    "id": 4,
+    "priority": 4,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*://miro.medium.com/fit/c/40"
+    }
+  },
+  {
+    "id": 5,
+    "priority": 5,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*://miro.medium.com/fit/c/48"
+    }
+  },
+  {
+    "id": 6,
+    "priority": 6,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*://miro.medium.com/fit/c/88"
+    }
+  },
+  {
+    "id": 7,
+    "priority": 7,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*://miro.medium.com/fit/c/96"
+    }
+  },
+  {
+    "id": 8,
+    "priority": 8,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "*://miro.medium.com/fit/c/176"
+    }
+  }
+]

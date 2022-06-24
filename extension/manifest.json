@@ -1,0 +1,35 @@
+{
+  "name": "Texture Surprise",
+  "description": "Extension to replace profile photo",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "*://miro.medium.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources" : [{
+      "id": "ruleset",
+      "enabled": true,
+      "path": "rules.json"
+    }]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://medium.com/*",
+        "https://*.medium.com/*",
+        "https://towardsdatascience.com/*"
+      ],
+      "run_at": "document_end",
+      "js": [
+        "image-manager.js",
+        "content-script.js"
+      ]
+    }
+  ],
+  "options_page": "options.html"
+}
